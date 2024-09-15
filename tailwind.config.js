@@ -21,6 +21,10 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      letterSpacing: {
+        title: "-0.2175rem",
+        desc: "-0.0975rem",
+      },
     },
   },
   plugins: [],
