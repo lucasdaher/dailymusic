@@ -1,7 +1,7 @@
 ![Dailymusic Banner](public/Capa.png)
 
-# DailyMusic
-Repositório contendo o projeto para a matéria de Desenvolvimento Front-end, que consiste em desenvolver uma página informativa para o dia internacional da música.
+# Dailymusic - Celebrando o Dia Internacional da Música
+Este repositório contém o código fonte do projeto de desenvolvimento front-end, que consiste em desenvolver uma página informativa para o dia internacional da música.
 
 ## O que preciso para executar este projeto?
 Para inicializar este projeto, você deverá ter o `NodeJS` e `PNPM` instalados em seu computador.
