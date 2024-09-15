@@ -1,3 +1,5 @@
+![Dailymusic Banner](public/Capa.png)
+
 # DailyMusic
 Repositório contendo o projeto para a matéria de Desenvolvimento Front-end, que consiste em desenvolver uma página informativa para o dia internacional da música.
 
