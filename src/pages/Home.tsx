@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
 
       <main>
-        <section className="background-presentation w-full h-[500px] flex flex-col justify-center items-center gap-2">
+        <section className="background-presentation border-b border-white/20 w-full h-[556px] flex flex-col justify-center items-center gap-2">
           <h1 className="text-white text-6xl font-inter font-semibold w-auto max-w-[96rem] text-center tracking-title antialiased ">
             Viva a trilha sonora da vida: Dia Internacional da Música!
           </h1>
