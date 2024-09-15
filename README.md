@@ -1,4 +1,4 @@
-![Dailymusic Banner](public/capa.png)
+![Dailymusic Banner](public/dailymusic-readme-cape.png)
 
 # Dailymusic - Celebrando o Dia Internacional da Música
 Este repositório contém o código fonte do projeto de desenvolvimento front-end, que consiste em desenvolver uma página informativa para o dia internacional da música.
