@@ -6,18 +6,50 @@ export default function Home() {
     <React.Fragment>
       <Header />
 
-      <main>
-        <section className="background-presentation border-b border-white/20 w-full h-[556px] flex flex-col justify-center items-center gap-2">
-          <h1 className="text-white text-6xl font-inter font-semibold w-auto max-w-[96rem] text-center tracking-title antialiased ">
-            Viva a trilha sonora da vida: Dia Internacional da Música!
-          </h1>
-          <p className="text-malibu-300 font-inter text-xl font-medium w-auto max-w-[64rem] text-center tracking-normal antialiased ">
-            Explore o universo da música neste Dia Internacional! Descubra
+      <main
+        className="background-presentation w-full h-[43.375rem] flex justify-center 
+      items-center"
+      >
+        <div className="flex justify-center items-center flex-col gap-8">
+          <div className="flex flex-col justify-center items-center">
+            <h1
+              className="antialiased text-malibu-300 text-8xl font-bold 
+            tracking-[-0.195rem]"
+            >
+              Viva a trilha sonora da vida
+            </h1>
+            <h1
+              className="antialiased text-malibu-300 text-8xl font-bold 
+            tracking-[-0.195rem]"
+            >
+              Dia Internacional da Música
+            </h1>
+          </div>
+
+          <p
+            className="antialiased text-white/70 max-w-[62.5625rem] w-full 
+          text-center font-normal text-2xl tracking-normal"
+          >
+            "Explore o universo da música neste Dia Internacional! Descubra
             curiosidades, histórias inspiradoras e celebre a força
-            transformadora da música em nossas vidas.
+            transformadora da música em nossas vidas."
           </p>
-        </section>
+
+          <a href="#historia" rel="noopener noreferrer">
+            <button
+              type="button"
+              title="Clique para conhecer a história da música."
+              className="px-10 py-4 rounded-full bg-white/20 border-[0.5px] 
+              border-white/40 text-2xl text-white font-medium mt-8
+              hover:bg-white/60 transition-all duration-200"
+            >
+              Ver diferentes épocas da música
+            </button>
+          </a>
+        </div>
       </main>
+
+      <section id="historia"></section>
     </React.Fragment>
   );
 }
