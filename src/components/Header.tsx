@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import dailymusicLogo from "../assets/logo/dailymusic.svg";
+import dailymusicLogo from "../assets/logo/dailyMusicLogo.svg";
 
 export default function Header() {
   return (
