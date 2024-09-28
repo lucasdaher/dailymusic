@@ -3,20 +3,23 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
-import festaSaoMiguel from "../assets/events/festaSaoMiguel.png";
+import pericles from "../assets/events/pericles.png";
 import sollares from "../assets/events/sollares.png";
 import ixquece from "../assets/events/ixquece.png";
 import apoena from "../assets/events/apoena.png";
+import club from "../assets/events/club.png";
+import rockthemountain from "../assets/events/rockthemountain.png";
+import baile from "../assets/events/baile.png";
 
 export default function Eventos() {
   const eventos = [
     {
       id: 1,
-      nome: "Festa de São Miguel Arcanjo 2024",
-      loc: "Centro de Eventos do Ceará - Fortaleza",
-      image: festaSaoMiguel,
-      alt: "Capa de Festa de São Miguel",
-      link: "",
+      nome: "PÉRICLES - 04/10/2024",
+      loc: "Araújo Vianna - Parque Farroupilha, 685, Porto Alegre - Rio Grande do Sul",
+      image: pericles,
+      alt: "Capa de Péricles",
+      link: "https://bileto.sympla.com.br/event/87722/d/220492?_gl=1*19bkbmp*_gcl_au*MTc1MjgyMTQzOC4xNzI3MzIwMTQ4*_ga*MjMwODg3MjI0LjE3MjczMjAxNDg.*_ga_KXH10SQTZF*MTcyNzU1ODc5NS4zLjEuMTcyNzU1ODk3OS4xMi4wLjIwNjQ0ODU1MjU.",
     },
     {
       id: 2,
@@ -41,6 +44,30 @@ export default function Eventos() {
       image: apoena,
       alt: "Capa do 3º Festival Apoena - A Música da Floresta",
       link: "https://www.sympla.com.br/evento/3-festival-apoena-a-musica-da-floresta/2588999",
+    },
+    {
+      id: 5,
+      nome: "CLUB #PlayTheGame",
+      loc: "Contexto Bar e Restaurante, Brasília - DF",
+      image: club,
+      alt: "Capa do CLUB #PlayTheGame",
+      link: "https://www.sympla.com.br/evento/club-playthegame/2651226",
+    },
+    {
+      id: 6,
+      nome: "Rock the Mountain 2024",
+      loc: "Parque Municipal Prefeito Paulo Rattes, Petrópolis - RJ",
+      image: rockthemountain,
+      alt: "Capa do Rock the Mountain 2024",
+      link: "https://www.sympla.com.br/evento/rock-the-mountain-2024-noite-de-abertura-1-final-de-semana/2624101",
+    },
+    {
+      id: 7,
+      nome: "BAILE LOTADÃO c/ DJ GBR & VICTOR LOU",
+      loc: "Arena BRB Mané Garrincha, Brasília - DF",
+      image: baile,
+      alt: "Capa do BAILE LOTADÃO c/ DJ GBR & VICTOR LOU",
+      link: "https://www.sympla.com.br/evento/baile-lotadao-c-dj-gbr-victor-lou/2637961",
     },
   ];
   return (
