@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 import illustrationInitial from "../assets/illustrations/illustrationInitial.svg";
@@ -9,6 +9,9 @@ import illustrationFuture from "../assets/illustrations/illustrationFuture.svg";
 import Footer from "../components/Footer";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <React.Fragment>
       <Header />

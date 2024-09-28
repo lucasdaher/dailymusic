@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 export default function Generos() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const generos = [
     {
       id: 1,
@@ -52,14 +55,77 @@ export default function Generos() {
           </Link>
         </div>
 
-        <div className="mt-16 flex flex-col justify-center items-center gap-16">
+        <div className="mt-16 flex flex-col justify-center items-center gap-16 w-full">
           {generos.map((genero) => (
             <div
-              className="flex flex-col justify-center items-start gap-4"
+              className="flex flex-col justify-center items-start gap-4 w-full"
               key={genero.id}
             >
               <h1 className="text-8xl font-bold text-white">{genero.title}</h1>
               <p className="text-xl font-normal text-white/60">{genero.desc}</p>
+
+              <div className="w-full">
+                {(genero.title === "Pop" && (
+                  <iframe
+                    className="rounded-lg w-full mt-6"
+                    src="https://open.spotify.com/embed/playlist/37i9dQZF1DX7dXtI26GOnj?utm_source=generator"
+                    width="100%"
+                    height="352"
+                    frameBorder="0"
+                    allowFullScreen={false}
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                  ></iframe>
+                )) ||
+                  (genero.title === "Hip-Hop" && (
+                    <iframe
+                      className="rounded-lg w-full mt-6"
+                      src="https://open.spotify.com/embed/playlist/37i9dQZF1DX186v583rmzp?utm_source=generator"
+                      width="100%"
+                      height="352"
+                      frameBorder="0"
+                      allowFullScreen={false}
+                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                      loading="lazy"
+                    ></iframe>
+                  )) ||
+                  (genero.title === "Música Latina" && (
+                    <iframe
+                      className="rounded-lg w-full mt-6"
+                      src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZjqjZMudx9T?utm_source=generator"
+                      width="100%"
+                      height="352"
+                      frameBorder="0"
+                      allowFullScreen={false}
+                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                      loading="lazy"
+                    ></iframe>
+                  )) ||
+                  (genero.title === "Música Eletrônica" && (
+                    <iframe
+                      className="rounded-lg w-full mt-6"
+                      src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4dyzvuaRJ0n?utm_source=generator"
+                      width="100%"
+                      height="352"
+                      frameBorder="0"
+                      allowFullScreen={false}
+                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                      loading="lazy"
+                    ></iframe>
+                  )) ||
+                  (genero.title === "Rock" && (
+                    <iframe
+                      className="rounded-lg w-full mt-6"
+                      src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUjoOWKKJzAy?utm_source=generator"
+                      width="100%"
+                      height="352"
+                      frameBorder="0"
+                      allowFullScreen={false}
+                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                      loading="lazy"
+                    ></iframe>
+                  ))}
+              </div>
             </div>
           ))}
         </div>
