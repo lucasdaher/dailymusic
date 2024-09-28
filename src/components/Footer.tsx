@@ -13,6 +13,9 @@ export default function Footer() {
       <nav className="mt-6">
         <ul className="flex justify-center items-center w-full gap-10">
           <li className="text-malibu-600/70 font-inter hover:text-malibu-300 transition-all duration-200 antialiased">
+            <Link to={`/`}>Início</Link>
+          </li>
+          <li className="text-malibu-600/70 font-inter hover:text-malibu-300 transition-all duration-200 antialiased">
             <Link to={`/descubra`}>Descubra</Link>
           </li>
           <li className="text-malibu-600/70 font-inter hover:text-malibu-300 transition-all duration-200 antialiased">

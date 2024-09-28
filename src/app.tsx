@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Descubra from "./pages/Descubra";
 import Generos from "./pages/Generos";
+import Eventos from "./pages/Eventos";
 
 export const router = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/eventos",
-    element: <Home />,
+    element: <Eventos />,
     errorElement: <Home />,
   },
 ]);

@@ -16,6 +16,9 @@ export default function Header() {
           <nav>
             <ul className="flex justify-center items-center gap-4">
               <li className="text-white/70 font-inter hover:text-white transition-all duration-200 antialiased">
+                <Link to={`/`}>Início</Link>
+              </li>
+              <li className="text-white/70 font-inter hover:text-white transition-all duration-200 antialiased">
                 <Link to={`/descubra`}>Descubra</Link>
               </li>
               <li className="text-white/70 font-inter hover:text-white transition-all duration-200 antialiased">
