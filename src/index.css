@@ -17,7 +17,7 @@ body {
 
 @layer utilities {
   .background-presentation {
-    background-image: url("src/assets/backgrounds/main-banner.png");
+    background-image: url("./assets/background/presentationBanner.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
