@@ -3,7 +3,7 @@ import dailymusicLogo from "../assets/dailyMusicLogo.svg";
 
 export default function Header() {
   return (
-    <header className="flex justify-center items-center w-full h-14 py-[0.625rem] px-[3.75rem] bg-black/50 backdrop-blur-[20px]">
+    <header className="fixed top-0 left-50 flex justify-center items-center w-full h-14 py-[0.625rem] px-[3.75rem] bg-black/50 backdrop-blur-[20px]">
       <div className="w-full flex justify-between items-center">
         <div className="flex justify-between items-center gap-9">
           <Link to={`/`} className="no-underline">
