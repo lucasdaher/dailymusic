@@ -8,7 +8,7 @@ export default function Descubra() {
     <React.Fragment>
       <Header />
 
-      <main className="mt-32 max-w-[1440px] w-full  mx-auto mb-32">
+      <main className="mt-32 max-w-[1440px] w-full mx-auto mb-32">
         <div className="flex flex-col justify-center items-center gap-2 w-full h-96 background-presentation rounded-lg">
           <h2 className="text-white font-semibold text-4xl">
             Descubra novas músicas e estilos
